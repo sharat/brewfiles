@@ -15,6 +15,7 @@ brew 'heroku'
 brew 'mongodb', restart_service: true
 brew 'nginx'
 brew 'nvm'
+brew 'mas'
 brew 'openssl'
 brew 'python'
 brew 'python3'
@@ -31,6 +32,12 @@ cask 'appcleaner'
 cask 'charles'
 cask 'cord'
 cask 'iterm2'
+cask 'kdiff3'
 cask 'java' unless system '/usr/libexec/java_home --failfast'
 cask 'sourcetree'
 cask 'github-desktop'
+
+mas 'Twitter', id: 409789998
+mas 'iA Writer', id: 775737590
+mas 'Microsoft Remote Desktop', id: 715768417
+mas 'Reeder', id: 880001334
