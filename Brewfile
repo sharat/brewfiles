@@ -1,19 +1,26 @@
-cask_args appdir: /Applications
+cask_args appdir: '/Applications'
 
-tap homebrew/bundle
+tap 'caskroom/cask'
+tap 'homebrew/bundle'
+tap 'homebrew/core'
+tap 'homebrew/services'
 
 brew 'coreutils'
 brew 'curl'
+brew 'htop'
 brew 'git'
 brew 'gradle'
+brew 'gzip'
 brew 'heroku'
+brew 'mongodb', restart_service: true
 brew 'nginx'
-brew 'node'
+brew 'nvm'
 brew 'openssl'
 brew 'python'
 brew 'python3'
 brew 'ruby-build'
 brew 'rbenv'
+brew 'redis', restart_service: true
 brew 'swiftlint'
 brew 'vim'
 brew 'wget'
@@ -22,6 +29,8 @@ brew 'zsh'
 
 cask 'appcleaner'
 cask 'charles'
+cask 'cord'
 cask 'iterm2'
-cask 'slack'
-cask 'vlc'
+cask 'java' unless system '/usr/libexec/java_home --failfast'
+cask 'sourcetree'
+cask 'github-desktop'
