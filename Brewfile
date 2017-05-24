@@ -36,6 +36,7 @@ cask 'kdiff3'
 cask 'java' unless system '/usr/libexec/java_home --failfast'
 cask 'sourcetree'
 cask 'github-desktop'
+cask 'sketch'
 
 mas 'Twitter', id: 409789998
 mas 'iA Writer', id: 775737590
