@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'caskroom/cask'
+tap 'caskroom/fonts'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'homebrew/services'
@@ -37,6 +38,10 @@ cask 'java' unless system '/usr/libexec/java_home --failfast'
 cask 'sourcetree'
 cask 'github-desktop'
 cask 'sketch'
+
+cask 'font-roboto-mono'
+cask 'font-source-code-pro'
+cask 'font-inconsolata'
 
 mas 'Twitter', id: 409789998
 mas 'Tweetbot for Twitter', id: 557168941
