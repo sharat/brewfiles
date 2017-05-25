@@ -39,6 +39,7 @@ cask 'github-desktop'
 cask 'sketch'
 
 mas 'Twitter', id: 409789998
+mas 'Tweetbot for Twitter', id: 557168941
 mas 'iA Writer', id: 775737590
 mas 'Microsoft Remote Desktop', id: 715768417
 mas 'Reeder', id: 880001334
