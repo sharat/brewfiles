@@ -12,6 +12,7 @@ brew 'htop'
 brew 'git'
 brew 'gradle'
 brew 'gzip'
+brew 'go'
 brew 'heroku'
 brew 'mongodb', restart_service: true
 brew 'nginx'
