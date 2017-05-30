@@ -52,3 +52,4 @@ mas 'Tweetbot for Twitter', id: 557168941
 mas 'iA Writer', id: 775737590
 mas 'Microsoft Remote Desktop', id: 715768417
 mas 'Reeder', id: 880001334
+mas 'Refly Editor', id: 1172952443
