@@ -41,7 +41,7 @@ cask 'paw'
 cask 'sourcetree'
 cask 'github-desktop'
 cask 'sketch'
-cask 'istat'
+cask 'istat-menus'
 
 cask 'font-roboto-mono'
 cask 'font-source-code-pro'
