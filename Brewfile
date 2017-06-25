@@ -6,6 +6,7 @@ tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'homebrew/services'
 
+brew 'bash_completion'
 brew 'curl'
 brew 'htop'
 brew 'git'
