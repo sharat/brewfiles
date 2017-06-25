@@ -34,7 +34,6 @@ cask 'java' unless system '/usr/libexec/java_home --failfast'
 cask 'kdiff3' unless system 'test -e /Applications/kdiff3.app'
 cask 'paw' unless system 'test -e /Applications/Paw.app'
 cask 'sketch' unless system 'test -e /Applications/Sketch.app'
-cask 'istat-menus' unless system 'test -e /Applications/iStat\ Menus.app'
 
 cask 'font-roboto-mono'
 cask 'font-source-code-pro'
