@@ -38,5 +38,4 @@ cask 'font-roboto-mono'
 cask 'font-source-code-pro'
 cask 'font-inconsolata'
 
-mas 'Twitter', id: 409789998 unless system 'test -e /Applications/Paw.app' 
 mas 'iA Writer', id: 775737590  unless system 'test -e /Applications/iA\ Writer.app' 
