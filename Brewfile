@@ -13,7 +13,6 @@ brew 'gradle'
 brew 'gzip'
 brew 'heroku'
 brew 'mongodb', restart_service: true
-brew 'nginx'
 brew 'nvm'
 brew 'mas'
 brew 'openssl'
