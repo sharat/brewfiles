@@ -1,4 +1,5 @@
-brew 'bash_completion'
+tap 'caskroom/fonts'
+
 brew 'curl'
 brew 'htop'
 brew 'git'
@@ -18,5 +19,3 @@ brew 'zsh'
 cask 'font-roboto-mono'
 cask 'font-source-code-pro'
 cask 'font-inconsolata'
-
-mas 'iA Writer', id: 775737590  unless system 'test -e /Applications/iA\ Writer.app' 
